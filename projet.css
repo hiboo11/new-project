@@ -1,3 +1,4 @@
+
 .navbar{
     display:flex;
     align-items: center;
@@ -43,4 +44,27 @@ p{
     align-items: center;
     justify-content: space-between;
    
+}
+.part3{
+    text-align: left;
+    margin: 20px;
+  
+}
+.div2{
+    display:flex ;
+    align-items: center;
+justify-content: flex-start;
+   
+}
+.img3{
+    display: flex;
+    justify-content:right;
+}
+.text{
+    background-color: rgb(233, 167, 117);
+    width: 1000px;
+    height: 900px;
+    color: black;
+
+
 }
