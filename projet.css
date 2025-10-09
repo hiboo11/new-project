@@ -104,6 +104,21 @@ justify-content: center;
 padding: 30px;
 margin: 20px;
 }
-button{
+
+    
+    .third{
+        background-color: rgb(169, 230, 169);
     width: 1500px;
+    height: 200px;
+    border-radius: 20px;
+    justify-content: right;
+    }
+    .camilla{
+        width: 100px;
+        height: 80px;
+        border-radius: 40px;
+    }
+    
+    .prg{
+        text-align:right;
     }
