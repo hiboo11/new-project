@@ -93,3 +93,17 @@ justify-content: flex-start;
 .space{
    display: flex;
 float: right;}
+.part4{
+    text-align: center;
+}
+.second{
+display: flex;
+gap: 20px;
+text-align: left;
+justify-content: center;
+padding: 30px;
+margin: 20px;
+}
+button{
+    width: 1500px;
+    }
