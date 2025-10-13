@@ -45,16 +45,19 @@ p{
     justify-content: space-between;
    
 }
-.more{
-    background-color: rgb(245, 190, 147);
-    width: 170px;
-    height: 50px;
-    border-radius: 10px;
-}
+
+
 .part3{
     text-align: left;
     margin: 20px;
   
+}
+.more{
+        background-color: rgb(245, 190, 147);
+   
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
 }
 .div2{
     display:flex ;
@@ -84,6 +87,14 @@ justify-content: flex-start;
     border-radius: 70px;
     float:left;
 }
+.div4{
+    display: flex;
+    align-items: center;
+}
+/* .all{
+    display: flex;
+    align-items: center;
+} */
 .div3{
     display: flex;
     padding: 40px;
@@ -92,14 +103,24 @@ justify-content: flex-start;
 }
 .space{
    display: flex;
-float: right;}
+   align-items: center;
+float: right;
+}
 .part4{
-    text-align: center;
+    
+  text-align: center;
+}
+
+.butt{
+    background-color: rgb(169, 230, 169);
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
 }
 .second{
 display: flex;
 gap: 20px;
-text-align: left;
+text-align:left;
 justify-content: center;
 padding: 30px;
 margin: 20px;
@@ -108,17 +129,68 @@ margin: 20px;
     
     .third{
         background-color: rgb(169, 230, 169);
-    width: 1500px;
     height: 200px;
     border-radius: 20px;
-    justify-content: right;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3em;
+    align-items: center;
+    }
+    .side{
+        /* display: flex; */
+        /* text-align: right; */
+        width: 60%;
+        
     }
     .camilla{
         width: 100px;
         height: 80px;
         border-radius: 40px;
     }
+    .song{
+    display: flex;
+    align-items: center;
+}
+.stars{
+    margin-top: 100px;
+}
+
     
-    .prg{
-        text-align:right;
-    }
+    .img10{
+         position: absolute;
+    left: 100px;
+    top: 1400px;
+}
+.secondeside{
+    display: flex;
+    justify-content: space-between;
+}
+
+.butt5{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: blue;
+}
+.second1{
+    display: flex;
+}
+.third1{
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    
+}
+.song1{
+    display: flex;
+    align-items: center;
+}
+.seconde{
+ display: flex;
+ justify-content: space-between;
+}
+.img12{
+    position: relative;
+    left: 1500px;
+    top: 50px;
+}
