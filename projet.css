@@ -151,9 +151,6 @@ margin: 20px;
     display: flex;
     align-items: center;
 }
-.stars{
-    margin-top: 100px;
-}
 
     
     .img10{
@@ -161,10 +158,7 @@ margin: 20px;
     left: 100px;
     top: 1400px;
 }
-.secondeside{
-    display: flex;
-    justify-content: space-between;
-}
+
 
 .butt5{
     width: 200px;
@@ -188,9 +182,42 @@ margin: 20px;
 .seconde{
  display: flex;
  justify-content: space-between;
+ align-items: center;
+ 
 }
 .img12{
     position: relative;
     left: 1500px;
     top: 50px;
+}
+.chiffres{
+ font-size: 50px;
+ gap: 20px;
+}
+.border{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid;
+    color: black;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.class1{
+    border: solid;
+    color: black;
+}
+.class2{
+    border: solid;
+    color: black;
+}
+.class3{
+    border: solid;
+    color: black;
 }
